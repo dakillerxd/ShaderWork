@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlowEffectMat
-  m_Shader: {fileID: -6465566751694194690, guid: 2dd0cb74778b159448fd2fa8f6278b80, type: 3}
+  m_Name: DissolveEffectMat
+  m_Shader: {fileID: -6465566751694194690, guid: be42010d46c04a449bf0b67684c18f76, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -41,12 +41,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EffectAmount: 0
+    - _DecalMeshBiasType: 0
+    - _DecalMeshDepthBias: 0
+    - _DecalMeshViewBias: 0
+<<<<<<< HEAD:Assets/Scenes/Shaders/DissolveEffectMat.mat
+    - _DissolveAmount: 0
+    - _Dissolve_Scale: 500
+=======
+    - _DissolveAmount: 0.531
+    - _Dissolve_Scale: 30
+>>>>>>> origin/Dev:Assets/Shaders/DissolveEffectMat.mat
+    - _DrawOrder: 0
+    - _Outline_Thickness: 0.012
     m_Colors:
-    - _EffectColor: {r: 19.468569, g: 19.468569, b: 19.468569, a: 0}
+    - _Outline_Color: {r: 4, g: 4, b: 4, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1017811341373472754
+--- !u!114 &486465483684601057
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
