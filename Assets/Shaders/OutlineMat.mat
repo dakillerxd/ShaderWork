@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveEffectMat
-  m_Shader: {fileID: -6465566751694194690, guid: be42010d46c04a449bf0b67684c18f76, type: 3}
+  m_Name: OutlineMat
+  m_Shader: {fileID: -6465566751694194690, guid: 506a854620fc20a4d847653f123051fd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,6 +24,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cba7223dbaa88ce4a8a5092a5f6a03ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9052fdc0dc384233bd7d2d40940dd32f_Texture_1_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -40,24 +44,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _DecalMeshBiasType: 0
-    - _DecalMeshDepthBias: 0
-    - _DecalMeshViewBias: 0
-<<<<<<< HEAD:Assets/Scenes/Shaders/DissolveEffectMat.mat
-    - _DissolveAmount: 0
-    - _Dissolve_Scale: 500
-=======
-    - _DissolveAmount: 0.531
-    - _Dissolve_Scale: 30
->>>>>>> origin/Dev:Assets/Shaders/DissolveEffectMat.mat
-    - _DrawOrder: 0
-    - _Outline_Thickness: 0.012
-    m_Colors:
-    - _Outline_Color: {r: 4, g: 4, b: 4, a: 1}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &486465483684601057
+--- !u!114 &2079729423715086878
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
